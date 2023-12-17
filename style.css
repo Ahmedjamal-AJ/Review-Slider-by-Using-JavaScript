@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./Assets/367418010_1468665820536231_2466274955155951413_n.png");
+}
+
+#mainface{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin-left: 28%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.95);
+    
+    
+}
+
+#mainface button{
+    font-size: 1.8em;
+    font-weight: 700;
+    height: 2.2em;
+    width: 2.2em;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    color: #0a69ed;
+    top: 0;
+    bottom: 0;
+    border: none;
+    box-shadow: 0 0 1em rgb(1, 17, 39, 0.25);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 3 00px;
+
+}
+
+button#next{
+    
+    left: 32.7em;
+}
+
+button#prev{
+    right: 30.7em;
+    display: block;
+}
+
+#testimonal-Container p {
+    color: #8c8c90;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    padding: 35px;
+}
+
+#testimonal-Container img {
+    display: block;
+    max-width: 9.4em;
+    border-radius: 10%;
+    margin-left: 240px;
+    justify-content: center;
+    margin-top: -10px;
+
+}
+
+#testimonal-Container H3 {
+    text-align: center;
+    color: #2d3d67;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+#testimonal-Container H6 {
+    text-align: center;
+    color: #bcc4da;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 26px;
+}
